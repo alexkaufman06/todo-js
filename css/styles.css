@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 #show-todo {
   display: none;
 }
@@ -9,4 +11,16 @@
 
 .to-do-item:hover {
   text-decoration: underline;
+}
+
+body {
+  background-image: url(../css/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #FFF;
+}
+
+.col-sm-5 {
+  color: blue;
 }
