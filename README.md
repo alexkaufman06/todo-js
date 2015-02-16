@@ -6,7 +6,7 @@ Clone repository and open the to-do.html file.
 ```
 ### Bug Reports:
 ```
-If the user enters in an exclamation point before the number, the result will be incorrect.
+Zarro Boogs
 ```
 ### Author:
 Alex Kaufman
