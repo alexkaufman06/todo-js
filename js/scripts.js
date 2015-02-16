@@ -5,7 +5,6 @@ $(document).ready(function() {
     var newName = $("input#new-name").val();
     var newDescription = $("input#new-description").val();
     var newToDo = { name: newName, description: newDescription, status: false };
-
     $("#todo").append("<li><span class='to-do-item'>" + newToDo.name + "</span></li>");
 
     $("input#new-name").val("");
@@ -15,10 +14,6 @@ $(document).ready(function() {
       $("#show-todo").show();
       $("#show-todo h2").text(newToDo.name);
       $(".description").text(newToDo.description);
-      debugger;
-    });
-    $(".complete").last().click(function() {
-
     });
   });
 });
