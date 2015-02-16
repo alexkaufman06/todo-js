@@ -1,0 +1,12 @@
+#show-todo {
+  display: none;
+}
+
+.to-do-item {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.to-do-item:hover {
+  text-decoration: underline;
+}
